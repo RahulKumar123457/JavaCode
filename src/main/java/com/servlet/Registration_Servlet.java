@@ -29,7 +29,7 @@ public class Registration_Servlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.setContentType("text/html");
-		PrintWriter out = response.getWriter();
+		//PrintWriter out = response.getWriter();
 		out.println("<h3> WELCOME TO REGISTRATION FORM</h3>");
 	}
 
